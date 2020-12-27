@@ -1,0 +1,14 @@
+.iframe_paper{
+    height: 84%;
+    margin-left: 30px;
+}
+
+.typography_container_paper{
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.typography_container_paper .typography_one{
+    font-size: 18px;
+    margin-top: 15px;
+}

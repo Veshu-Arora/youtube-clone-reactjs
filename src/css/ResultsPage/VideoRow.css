@@ -1,0 +1,52 @@
+.videoRow{
+    display: flex;
+    margin-bottom: 2px;
+    /* max-width: 700px; */
+    /* background-color: rgb(155, 128, 155); */
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+.videoRow > img{
+    object-fit: contain;
+    width: 165px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.videoRow__text{
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.videoRow__description{
+    margin-top : 15px;
+    font-size: 14px;
+    color: rgb(99, 94, 94);
+}
+
+.videoRow__headline{
+    font-size: 14px;
+    color: rgb(99, 94, 94);
+}
+
+.videoRow__subsNumber{
+    font-weight: bolder;
+    color: rgb(84, 157, 211);
+
+}
+
+.videoRow__subs{
+    padding: 2px;
+    background-color: lightgray;
+}
+
+.up-next-heading{
+    margin-bottom: 12px;
+    padding-left: 24px;
+}
+
+.videoRow__text .video-title{
+    overflow-y: hidden;
+    height: 42px;
+}

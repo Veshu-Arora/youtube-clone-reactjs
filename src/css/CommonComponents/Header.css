@@ -1,0 +1,77 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky !important;
+    top: 0;
+    z-index: 20;
+    background-color: white;
+    opacity: 98%;
+    /* height: 10vh; */
+}
+
+.header__logo{
+    height: 30px;
+    object-fit: contain;
+    margin-left: 30px;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    border: 1px solid gray;
+}
+.header__input input{
+    display: flex;
+    flex: 1;
+    /* padding: 5px 5px 5px 10px; */
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.header__input .header_inputButton{
+    display: flex;
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgrey;
+    color: gray; 
+}
+
+.header__input .header_inputButton:hover{
+    color: rgb(100, 100, 100);   
+    background-color: rgb(247, 241, 241);
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.header__icon{
+    margin-right: 20px;
+    color: rgb(82, 82, 82);
+}
+
+.header__left > a{
+    color: black;
+}
+
+.header__icons .avatar-image{
+    height: 35px;
+    width: 35px;
+    background-color: rebeccapurple;
+}
