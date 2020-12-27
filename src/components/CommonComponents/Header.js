@@ -72,12 +72,12 @@ class Header extends React.Component {
                         alt="VA" 
                         src="https://avatars2.githubusercontent.com/u/Veshu-Arora"
                     />
-                </div>
-                
-                
+                </div>   
             </div>
         )
     }
 }
+
+
 
 export default Header;

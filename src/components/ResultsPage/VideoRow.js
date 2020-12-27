@@ -1,6 +1,5 @@
 import React from "react";
 import '../../css/ResultsPage/VideoRow.css';
-// import Avatar from '@material-ui/core/Avatar';
 
 function VideoRow({ views, subs, description, timestamp, channel, title, image, video, onVideoSelect }) {
     return (

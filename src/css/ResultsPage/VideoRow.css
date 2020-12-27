@@ -1,8 +1,6 @@
 .videoRow{
     display: flex;
     margin-bottom: 2px;
-    /* max-width: 700px; */
-    /* background-color: rgb(155, 128, 155); */
     padding-left: 25px;
     padding-right: 40px;
 }
