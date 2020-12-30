@@ -1,5 +1,6 @@
 import React from "react";
 import HomePage from './pages/HomePage';
+import LoginPage from './pages/LoginPage';
 import ResultsPage from './pages/ResultsPage';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
@@ -13,7 +14,9 @@ class App extends React.Component {
         <Router>
           <Switch>
             
-            <Route path = "/" exact component={HomePage}/>
+            <Route path = "/" exact component={LoginPage}/>
+            
+            <Route path = "/homepage" exact component={HomePage}/>
 
             <Route path = "/search/:searchTerm" component = {ResultsPage} exact />
             

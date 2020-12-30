@@ -3,8 +3,6 @@ import Avatar from '@material-ui/core/Avatar';
 import VerifiedIcon from '@material-ui/icons/CheckCircleOutlineOutlined';
 import '../../css/YoutubeChannel/ChannelRow.css';
 
-
-
 function ChannelRow({image, channel, verified, subs, noOfVideos, description}) {
     return (
         <div className = "channelRow">

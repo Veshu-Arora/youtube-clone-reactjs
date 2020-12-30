@@ -2,7 +2,6 @@ import React from "react";
 import Sidebar from '../components/HomePage/Sidebar';
 import RecommendedVideos from '../components/HomePage/RecommendedVideos';
 import youtube from '../api/Youtube';
-// import '../App.css';
 import Header from '../components/CommonComponents/Header';
 import { searchAction } from '../redux/actions/searchAction';
 import { selectedVideoAction } from '../redux/actions/selectedVideoAction';
@@ -83,7 +82,7 @@ class HomePage extends React.Component {
     }
 
     componentDidMount() {
-        this.initialSubmit('Justin Bieber');
+        this.initialSubmit('Justin Bieber top songs');
 
         setTimeout(() => {
             this.setState({
