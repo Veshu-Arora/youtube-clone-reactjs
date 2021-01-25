@@ -72,3 +72,24 @@
     width: 35px;
     background-color: rebeccapurple;
 }
+
+@media only screen and (max-width: 600px) {
+    .header__left, .header__icons {
+        display: none;
+    }
+
+    .header {
+        margin-top: 0;
+        display: flex;
+        border-bottom: 1px solid lightgray;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0px;
+        z-index: 20;
+    }
+
+    .header__input{
+        width: 100%;
+    }
+}

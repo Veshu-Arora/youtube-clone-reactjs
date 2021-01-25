@@ -8,12 +8,12 @@ function VideoRow({ views, subs, description, timestamp, channel, title, image, 
             <div className = "videoRow__text">
                 <div className = 'video-title'>{title}</div>
                 <p className = "videoRow__headline">
-                    {channel} 
-                    <br />
+                    <div className = 'channel_name'>{channel} </div>
+                    {/* <br /> */}
                     {/* <span className = "videoRow__subs">
                         <span className = "videoRow__subsNumber" >{subs}</span> subscribers
                     </span>{" "}  */}
-                    {views} views . {timestamp}
+                    <div>{views} views . {timestamp}</div>
                 </p>
                 {/* <p className = "videoRow__description">{description}</p> */}
             </div>

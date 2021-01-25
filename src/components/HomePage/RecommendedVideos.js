@@ -5,8 +5,7 @@ import '../../css/HomePage/RecommendedVideos.css';
 function RecommendedVideos({video_list, onVideoSelect, toggleRecommendedVideoSelected}) {
     return (
         <div className = 'recommendedVideos'>
-            <h2>Recommended</h2>
-          
+            <h2 className = "recommended-heading">Recommended</h2>
             <div className = 'recommendedVideos__videos'>
 
                {video_list.map((video, id) =>  (
