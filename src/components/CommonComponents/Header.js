@@ -39,7 +39,7 @@ class Header extends React.Component {
         return (
             <div className = "header">
                 <div className = "header__left">
-                    <MenuIcon />
+                    <div className = 'menuicon-element'><MenuIcon /></div>
                     <Link to = "/">
                         <img className = 'header__logo'
                             src = "https://secureservercdn.net/45.40.144.200/8j4.0ea.myftpupload.com/wp-content/uploads/2020/07/youtube-banner.jpg"
@@ -53,7 +53,7 @@ class Header extends React.Component {
                         type="text" 
                         name="searchTerm" 
                         placeholder = "Search" 
-                        autoComplete="on" 
+                        autoComplete="off" 
                         value={this.state.searchTerm}
                         onChange={(event) => this.handleChange(event)}
                         required="" 

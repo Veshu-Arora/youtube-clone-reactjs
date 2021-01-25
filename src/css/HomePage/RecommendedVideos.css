@@ -18,3 +18,9 @@
 .recommendedVideos__videos .videocard{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    .recommended-heading {
+        display: none;
+    }
+}

@@ -3,7 +3,7 @@ import { Paper, Typography } from '@material-ui/core';
 import '../../css/ResultsPage/VideoDetail.css';
 
 const VideoDetail = ({video}) => {
-    if(!video) return<div><h1>Loading...</h1></div>
+    if(!video) return<center><div><h1>Search something to see results!</h1></div></center>
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`
       return(
         <React.Fragment>

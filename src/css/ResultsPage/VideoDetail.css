@@ -11,4 +11,34 @@
 .typography_container_paper .typography_one{
     font-size: 18px;
     margin-top: 15px;
+    font-weight: 520;
+}
+
+.typography_container_paper .typography_two{
+    color: rgb(90, 85, 85);
+}
+
+@media only screen and (max-width: 600px) {
+    .iframe_paper{
+        height: 70%;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .typography_container_paper{
+        padding: 5px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .typography_container_paper .typography_one{
+        font-size: 12px;
+        margin-top: 5px;
+        font-weight: 600;
+    }
+
+    .typography_container_paper .typography_two{
+        font-size: 12px;
+    }
 }

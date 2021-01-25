@@ -46,3 +46,29 @@
 .up-next-heading{
     font-size: 18px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .searchPage{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        height: auto;
+    }
+
+
+    .searchPage .videoplayer-iframe{
+        height: 290px;
+        width: 100vw ;
+        padding: 0;
+        position: sticky;
+        top: 45px
+    }
+
+    .searchPage .video-suggestions-list{
+        height: 100%;
+        width: 100vw;
+        padding-top: 20px;
+    }
+
+}
