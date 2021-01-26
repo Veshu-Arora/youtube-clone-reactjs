@@ -6,6 +6,9 @@
 .typography_container_paper{
     padding: 5px;
     margin-left: 30px;
+    border-bottom: 1px solid lightgray;
+    background-color: #fafafa !important;
+    border-radius: 0 !important;
 }
 
 .typography_container_paper .typography_one{
@@ -30,12 +33,19 @@
         margin-left: 0px;
         display: flex;
         flex-direction: column;
+        border-radius: 0 !important;
+        background-color: white !important;
+        border-bottom: 1px solid lightgray;
     }
 
     .typography_container_paper .typography_one{
         font-size: 12px;
         margin-top: 5px;
         font-weight: 600;
+        height: 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
 
     .typography_container_paper .typography_two{
