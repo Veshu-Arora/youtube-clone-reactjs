@@ -5,7 +5,7 @@
 
 .videoCard__thumbnail{
     height: 140px;
-    width: 250px;
+    width: 250px; 
 }
 
 .videoCard__info{
@@ -37,4 +37,24 @@
 .videoCard__avatar{
     height: 35px;
     width: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .videoCard{
+        width: 100%;
+    }
+
+    .videoCard__thumbnail{
+        height: 100%;
+        width: 100%;
+    }
+
+    .videoCard__text > h4{
+        height: 35px;
+    }
+
+    .videoCard__info {
+        margin-left: 10px;
+    }
 }

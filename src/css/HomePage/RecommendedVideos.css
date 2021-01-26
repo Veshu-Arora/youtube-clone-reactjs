@@ -20,6 +20,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    .recommendedVideos{
+        flex: 1;
+        background-color: white;
+        padding-left: 0 !important;
+        padding-right: 0 !important;    
+    }
+
     .recommended-heading {
         display: none;
     }

@@ -54,6 +54,7 @@
         flex-direction: column;
         padding-top: 0px;
         height: auto;
+        background-color: white;
     }
 
 
@@ -62,7 +63,8 @@
         width: 100vw ;
         padding: 0;
         position: sticky;
-        top: 45px
+        top: 45px;
+        background-color: white;
     }
 
     .searchPage .video-suggestions-list{

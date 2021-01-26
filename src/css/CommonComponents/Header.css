@@ -92,4 +92,9 @@
     .header__input{
         width: 100%;
     }
+
+    .header__input input{
+        font-size: 18px;
+    }
+
 }
