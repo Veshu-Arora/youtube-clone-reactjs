@@ -60,7 +60,7 @@
     }
 
     .videoRow > img{
-        object-fit: none;
+        object-fit: none !important;
         height: 60%;
         width: 100%;
     }
@@ -70,7 +70,7 @@
         flex-direction: row;
         font-size: 13px;
         overflow: hidden;
-        height: 22px;
+        height: 18px;
     }
 
     .channel_name {
@@ -78,7 +78,7 @@
     }
 
     .videoRow__text {
-        margin-left: 10px;
+        margin-left: 13px;
         font-size: 15px;
         font-weight: 450;
         overflow: hidden;

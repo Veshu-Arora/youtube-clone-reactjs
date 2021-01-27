@@ -65,6 +65,7 @@
         position: sticky;
         top: 45px;
         background-color: white;
+        background-color: transparent !important;
     }
 
     .searchPage .video-suggestions-list{
