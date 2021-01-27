@@ -57,12 +57,13 @@
         flex-direction: column;
         height: 270px;
         padding: 0;
+        background-color: rebeccapurple;
     }
 
     .videoRow > img{
         object-fit: none !important;
         height: 60%;
-        width: 100%;
+        width: 100% !important;
     }
 
     .videoRow__headline {
@@ -71,6 +72,7 @@
         font-size: 13px;
         overflow: hidden;
         height: 18px;
+        background-color: orchid !important;
     }
 
     .channel_name {
@@ -78,16 +80,18 @@
     }
 
     .videoRow__text {
-        margin-left: 13px;
+        /* margin-left: 13px; */
         font-size: 15px;
         font-weight: 450;
         overflow: hidden;
+        background-color: tomato !important;
     }
 
     .video-title {
         margin-top: 8px;
         height: 18px !important;
         overflow: hidden;
+        background-color: teal !important;
     }
 
     .up-next-heading {
