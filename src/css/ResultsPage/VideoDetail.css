@@ -40,8 +40,8 @@
     }
 
     .typography_container_paper .typography_one{
-        font-size: 13.8px;
-        margin-top: 5px;
+        font-size: 14px;
+        margin-top: 0px;
         font-weight: 600;
         height: 20px;
         text-overflow: ellipsis;
